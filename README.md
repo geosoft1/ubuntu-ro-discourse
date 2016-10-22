@@ -15,6 +15,7 @@
 - [Restore your backup](#restore-your-backup)
 - [Localize your Discourse](#localize-your-discourse)
 - [Customize your theme](#customize-your-theme)
+  - [Logo images](#logo-images)
   - [Color scheme](#color-scheme)
   - [Custom CSS/HTML](#custom-csshtml)
 - [Troubleshooting](#troubleshooting)
@@ -116,7 +117,17 @@ From the interface allow users to change their language from `Admin:Settings:Bas
 
 ## Customize your theme
 
-Making a new theme mean create a color scheme and some custom css.
+Making a new theme mean create a color scheme and some custom css. Also some logo images may be needed.
+
+## Logo images
+
+Place logo images to `Staff:Media library` topic. Copy links to `Admin:Required` proper sections:
+
+* [Forum logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-forum.png) `Admin:Required:logo url`
+* [Small logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-ubuntu_cof-orange-hex.png) `Admin:Required:small logo url`
+* [Mobile forum logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-forum-mobile.png) `Admin:Required:mobile logo url`
+* [Favicon image](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/favicon.png) `Admin:Required:favicon url`
+* [Apple logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-ubuntu_cof-orange-hex.png) `Admin:Required:apple touch icon url`
 
 ## Color scheme
 
