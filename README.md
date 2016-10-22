@@ -160,6 +160,7 @@ For ubuntu.ro theme use this:
 
 [CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer.html)
 [/body](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/body.html)
+
 For mobiles use this:
 
 [CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css-mobile) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header-mobile.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top-mobile.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer-mobile.html)
