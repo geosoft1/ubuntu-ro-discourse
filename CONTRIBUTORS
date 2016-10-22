@@ -1,0 +1,22 @@
+In order of appearance:
+
+George Calianu <geosoft1@gmail.com>
+- starting project,test platform hosting,configure docker and discourse
+- logos and welcome message design
+- css and mobile css
+Alexandru Polihron <>
+- configure discourse,authentications with google,facebook,github,twiter
+Razvan Ghitescu <raztaz.ubuntu@gmail.com>
+- main translator in Romanian
+- data migration
+Vlad Paul Paval <>
+- main translator in Romanian
+Nandi <>
+- mobile platfom testing,promoting activity,moral support
+Ionel Ghidarcea <>
+- platform testing
+Alexandru Cucu <>
+- main server hosting,configure docker and discourse,sysadmin stuff
+
+No animals was harmed in the making of this project.
+Copyleft MMXVI Ubuntu Romania Community. This project is free as in free speech and free beer.

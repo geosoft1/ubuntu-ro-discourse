@@ -1,0 +1,28 @@
+/*
+css style for forum.ubuntu.ro
+author:  <geosoft1@gmail.com>
+*/
+.d-header .icons .icon:hover { background-color: transparent; }
+.nav-pills>li>a { border-radius: 5px; }
+.list-controls { border-radius: 5px; }
+.btn { border-radius: 5px; }
+.alert.alert-info { border-radius: 5px;}
+.d-header .login-button, .d-header button.sign-up-button { background-color: #bb4814; }
+html { font-family: Ubuntu,Arial,sans-serif;} 
+
+/*uncomment this for rounded category button*/
+/*
+nav.post-controls button {border-radius: 5px;}
+a.badge-category.home {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+a.badge-category.category-dropdown-button {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+*/
+
+

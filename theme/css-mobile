@@ -1,0 +1,26 @@
+/*
+css-mobile style for forum.ubuntu.ro
+author:  <geosoft1@gmail.com>
+*/
+
+.btn {
+    border-radius: 5px;
+    margin-left: 0px;
+    padding-left:8px;
+    padding-right:8px;
+}
+.list-controls  {
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.nav-pills>li>a {
+    padding-left:2px;
+    padding-right:2px;
+    margin:0;
+}
+
+.nav-pills>li {
+    float: left;
+    margin: 0;
+}
