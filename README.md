@@ -2,7 +2,7 @@
 
 - [Getting started with Discourse](#getting-started-with-discourse)
 - [Working with Docker](#working-with-gopei)
-  - [Switch to Discourse folder](switch-to-discourse-folder)
+  - [Switch to Discourse folder](#switch-to-discourse-folder)
   - [Start the container](#start-the-container)
   - [Stop the container](#stop-the-container)
   - [Enter into the container](#enter-into-the-container)
