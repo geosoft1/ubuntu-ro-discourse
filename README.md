@@ -19,6 +19,8 @@
   - [Color scheme](#color-scheme)
   - [Custom CSS/HTML](#custom-csshtml)
 - [Configure various authentications](#configure-various-authentications)
+- [Remove image uploading in posts](#remove-image-uploading-in-posts)
+- [Data migration](#data-migration)
 - [Troubleshooting](#troubleshooting)
 - [Known issues](#known-issues)
 - [Platform Specific Information](#platform-specific-information)
@@ -95,7 +97,7 @@ Activate restoring from `Admin:Settings:Backups:allow restore`. Now your restore
 
 ## Localize your Discourse
 
-Follow the [documentation](https://meta.discourse.org/t/install-a-plugin/19157) for plugin instalation.
+Follow the [documentation](https://meta.discourse.org/t/install-a-plugin/19157) for plugin instalation and [update](https://meta.discourse.org/t/how-to-update-translations-on-running-instance-of-discourse/14840/4) translations.
 
 First you need to [switch to Discourse folder](#switch-to-discourse-folder) and change your `app.yml` file like that:
 
@@ -171,6 +173,14 @@ For mobiles use this:
 * Twitter
 * Facebook
 
+## Remove image uploading in posts
+
+See [here](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/3). Go to `Admin:Settings:Files` and change `max image size kb` and `max attachment size kb` to 0, or clear out authorized extensions.
+
+## Data migration
+
+See [this](https://meta.discourse.org/t/importing-from-fluxbb/51322) topic.
+
 ## Troubleshooting
 
 ## Known issues
@@ -198,6 +208,10 @@ and update grub
 #### Who should use?
 
 This is a *How it's made* design for Ubuntu Romania Community but generally speaking can be used by enybody who want to make a forum based on Discourse.
+
+#### Is Discourse safe for use?
+
+They says yes. Read [this](https://github.com/discourse/discourse/blob/master/docs/SECURITY.md) document.
 
 ## References
 
