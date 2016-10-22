@@ -18,6 +18,7 @@
   - [Logo images](#logo-images)
   - [Color scheme](#color-scheme)
   - [Custom CSS/HTML](#custom-csshtml)
+- [Configure various authentications](#configure-various-authentications)
 - [Troubleshooting](#troubleshooting)
 - [Known issues](#known-issues)
 - [Platform Specific Information](#platform-specific-information)
@@ -161,6 +162,14 @@ For mobiles use this:
 [CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css-mobile) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header-mobile.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top-mobile.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer-mobile.html)
 
 **Note** that mobile CSS are needed especially if you use small devices like cellphones.
+
+## Configure various authentications
+
+* [Github](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)
+* [Google](https://meta.discourse.org/t/configuring-google-login-for-discourse/15858)
+* Launchpad
+* Twitter
+* Facebook
 
 ## Troubleshooting
 
