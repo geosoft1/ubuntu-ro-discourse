@@ -220,5 +220,16 @@ They says yes. Read [this](https://github.com/discourse/discourse/blob/master/do
 [http://design.ubuntu.com](http://design.ubuntu.com)<br>
 [http://design.ubuntu.com/brand/colour-palette](http://design.ubuntu.com/brand/colour-palette)<br>
 [https://design.canonical.com/2016/04/ubuntu-orange-update](https://design.canonical.com/2016/04/ubuntu-orange-update)<br>
+[https://design.canonical.com/2011/07/ubuntu-orange-is-dd4814](https://design.canonical.com/2011/07/ubuntu-orange-is-dd4814)<br>
 
+[https://meta.discourse.org/t/importing-from-fluxbb/51322](https://meta.discourse.org/t/importing-from-fluxbb/51322)<br>
+
+[https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md](https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md)<br>
+[https://meta.discourse.org/t/install-a-plugin/19157](https://meta.discourse.org/t/install-a-plugin/19157)<br>
+[https://meta.discourse.org/t/configuring-google-login-for-discourse/15858](https://meta.discourse.org/t/configuring-google-login-for-discourse/15858)<br>
+[https://meta.discourse.org/t/configuring-github-login-for-discourse/13745](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)<br>
+[https://meta.discourse.org/t/how-to-update-translations-on-running-instance-of-discourse/14840/5](https://meta.discourse.org/t/how-to-update-translations-on-running-instance-of-discourse/14840/5)<br>
+[https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/4](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/4)<br>
+[https://github.com/discourse/discourse/blob/master/docs/SECURITY.md](https://github.com/discourse/discourse/blob/master/docs/SECURITY.md)<br>
 [https://meta.discourse.org/t/best-way-to-customize-top-menu/35336/3](https://meta.discourse.org/t/best-way-to-customize-top-menu/35336/3)<br>
+
