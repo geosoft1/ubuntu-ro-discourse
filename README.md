@@ -175,7 +175,7 @@ and update grub
 
 #### Who should use?
 
-This is a *How to made* design for Ubuntu Romania Community but generally speaking can be used by enybody who want to make a forum based on Discourse.
+This is a *How it's made* design for Ubuntu Romania Community but generally speaking can be used by enybody who want to make a forum based on Discourse.
 
 ## References
 
