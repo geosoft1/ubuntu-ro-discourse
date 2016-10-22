@@ -129,6 +129,8 @@ Place logo images to `Staff:Media library` topic. Copy links to `Admin:Required`
 * [Favicon image](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/favicon.png) `Admin:Required:favicon url`
 * [Apple logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-ubuntu_cof-orange-hex.png) `Admin:Required:apple touch icon url`
 
+Note that some `.png` images are white on transparent so don't panic if you don't see it. Are there, just put it.
+
 ## Color scheme
 
 `Admin:Customize:Colors:New`
