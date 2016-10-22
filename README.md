@@ -27,6 +27,7 @@
 - [Release Specific Information](#release-specific-information)
 - [Faq](#faq)
   - [Who should use?](#who-should-use)
+  - [Is Discourse safe for use?](#is-discourse-safe-for-use)
 - [References](#references)
 
 
