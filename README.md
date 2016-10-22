@@ -8,12 +8,12 @@
   - [Enter into the container](#enter-into-the-container)
   - [Rebuild the container](#rebuild-the-container)
   - [Set date inside container](#set-date-inside-container)
-- [Backup your installation](backup-your-installation)
-- [Restore your backup](restore-your-backup)
-- [Localize your Discourse]()
-- [Customize your theme]()
-  - [Color scheme]()
-  - [Custom CSS/HTML]()
+- [Backup your installation](#backup-your-installation)
+- [Restore your backup](#restore-your-backup)
+- [Localize your Discourse](#localize-your-discourse)
+- [Customize your theme](#customize-your-theme)
+  - [Color scheme](#color scheme)
+  - [Custom CSS/HTML](#custom-css-html)
 - [Troubleshooting](#troubleshooting)
 - [Known issues](#known-issues)
 - [Platform Specific Information](#platform-specific-information)
@@ -64,7 +64,7 @@ Note that you can't enter into container if is stopped.
 
 This is useful if you want to add plugins or some capabilities to the platforma.
 
-**Remember** that to do a [backup](backup-your-installation) before rebuild. After that all your data will be lost and you will need to restore.
+**Remember** that to do a [backup](#backup-your-installation) before rebuild. After that all your data will be lost and you will need to restore.
 
 #### Set date inside container
 
@@ -92,7 +92,7 @@ Activate restoring from `Admin:Settings:Backups:allow restore`. Now your restore
 
 Follow the [documentation](https://meta.discourse.org/t/install-a-plugin/19157) for plugin instalation.
 
-First you need to [switch to Discourse folder](switch-to-discourse-folder) and change your `app.yml` file like that:
+First you need to [switch to Discourse folder](#switch-to-discourse-folder) and change your `app.yml` file like that:
 
         ## Plugins go here
         ## see https://meta.discourse.org/t/19157 for details
@@ -138,11 +138,12 @@ For ubuntu.ro theme use this:
 
 For ubuntu.ro theme use this:
 
-[CSS]() [Header]() [Top]() [Footer]()
+[CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer.html)
 
 For mobiles use this:
 
-[CSS]() [Header]() [Top]() [Footer]()
+[CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css-mobile) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header-mobile.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top-mobile.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer-mobile.html)
+
 
 
 ## Known issues
