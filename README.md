@@ -179,6 +179,6 @@ This is a *How to made* design for Ubuntu Romania Community but generally speaki
 
 ## References
 
-[http://design.ubuntu.com](http://design.ubuntu.com)
-[http://design.ubuntu.com/brand/colour-palette](http://design.ubuntu.com/brand/colour-palette)
-[https://design.canonical.com/2016/04/ubuntu-orange-update](https://design.canonical.com/2016/04/ubuntu-orange-update)
+[http://design.ubuntu.com](http://design.ubuntu.com)<br>
+[http://design.ubuntu.com/brand/colour-palette](http://design.ubuntu.com/brand/colour-palette)<br>
+[https://design.canonical.com/2016/04/ubuntu-orange-update](https://design.canonical.com/2016/04/ubuntu-orange-update)<br>
