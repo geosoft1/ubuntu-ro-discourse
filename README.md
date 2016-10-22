@@ -221,4 +221,4 @@ They says yes. Read [this](https://github.com/discourse/discourse/blob/master/do
 [http://design.ubuntu.com/brand/colour-palette](http://design.ubuntu.com/brand/colour-palette)<br>
 [https://design.canonical.com/2016/04/ubuntu-orange-update](https://design.canonical.com/2016/04/ubuntu-orange-update)<br>
 
-[https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/body.html](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/body.html)<br>
+[https://meta.discourse.org/t/best-way-to-customize-top-menu/35336/3](https://meta.discourse.org/t/best-way-to-customize-top-menu/35336/3)<br>
