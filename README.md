@@ -37,7 +37,7 @@ Use the original Discourse [documentation](https://github.com/discourse/discours
 
 ## Working with Docker
 
-#### Change to Discourse folder
+#### Switch to Discourse folder
 
 Use `launcher` command to manage the container. Before switch to `/var/discourse` as root.
 
