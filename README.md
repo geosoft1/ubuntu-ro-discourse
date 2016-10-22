@@ -1,7 +1,10 @@
-##Table of contents
+[![version](https://img.shields.io/badge/version-1.0.1-orange.svg)](https://github.com/geosoft1/ubuntu-ro-discourse)
+[![license](https://img.shields.io/badge/license-gpl-blue.svg)](https://github.com/geosoft1/ubuntu-ro-discourse/blob/master/LICENSE)
+
+## Table of contents
 
 - [Getting started with Discourse](#getting-started-with-discourse)
-- [Working with Docker](#working-with-gopei)
+- [Working with Docker](#working-with-docker)
   - [Switch to Discourse folder](#switch-to-discourse-folder)
   - [Start the container](#start-the-container)
   - [Stop the container](#stop-the-container)
@@ -144,9 +147,15 @@ For mobiles use this:
 
 [CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css-mobile) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header-mobile.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top-mobile.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer-mobile.html)
 
+**Note** that mobile CSS are needed especially if you use small devices like cellphones.
 
+## Troubleshooting
 
 ## Known issues
+
+Ubuntu 16.04+ virtual machines ocasionally hang.
+
+## Platform Specific Information
 
 For Ubuntu 16.04+ virtual machines remeber to disable standby otherwise you will have sporadic hangs.
 
@@ -160,6 +169,16 @@ and update grub
  
         sudo update-grub
 
+## Release Specific Information
 
+## Faq
 
+#### Who should use?
 
+This is a *How to made* design for Ubuntu Romania Community but generally speaking can be used by enybody who want to make a forum based on Discourse.
+
+## References
+
+[http://design.ubuntu.com](http://design.ubuntu.com)
+[http://design.ubuntu.com/brand/colour-palette](http://design.ubuntu.com/brand/colour-palette)
+[https://design.canonical.com/2016/04/ubuntu-orange-update](https://design.canonical.com/2016/04/ubuntu-orange-update)
