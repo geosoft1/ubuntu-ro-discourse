@@ -21,7 +21,7 @@
 - [Configure various authentications](#configure-various-authentications)
 - [Remove image uploading in posts](#remove-image-uploading-in-posts)
 - [Data migration](#data-migration)
-- [Essential configurations](#essentials-configurations)
+- [Essential configurations](#essential-configurations)
 - [Troubleshooting](#troubleshooting)
 - [Known issues](#known-issues)
 - [Platform Specific Information](#platform-specific-information)
