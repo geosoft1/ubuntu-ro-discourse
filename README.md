@@ -210,10 +210,8 @@ Preferences:Admin
     * min topic title length:1
     * highlighted languages: add go :wink:
   * Files
-    * `max image size kb:0`,`max attachment size kb:0`,`authorized extensions:[]` for no upload files
-	or
-    * `max attachment size kb:0`,`authorized extensions:[png,jpg]`,`max image width:120`,`max image height:120` upload png,jpg files with 120x120px (for avatars)
-    * 
+    * If you don't want to allow files upload use: '`max image size kb:0`,`max attachment size kb:0`,`authorized extensions:[]`
+    * To allow upload png,jpg files with 120x120px (for avatars) use: `max attachment size kb:0`,`authorized extensions:[png,jpg]`,`max image width:120`,`max image height:120`
     * Legal: link to CoC
   * Backups
     * allow restore [✓]

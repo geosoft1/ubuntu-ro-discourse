@@ -7,7 +7,7 @@ author:  <geosoft1@gmail.com>
 .list-controls { border-radius: 5px; }
 .btn { border-radius: 5px; }
 .alert.alert-info { border-radius: 5px;}
-.d-header .login-button, .d-header button.sign-up-button { background-color: #bb4814; }
+.d-header .login-button, .d-header button.sign-up-button { background-color: #e95420; }
 html { font-family: Ubuntu,Arial,sans-serif;} 
 
 /*uncomment this for rounded category button*/
