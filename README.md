@@ -21,7 +21,7 @@
 - [Configure various authentications](#configure-various-authentications)
 - [Remove image uploading in posts](#remove-image-uploading-in-posts)
 - [Data migration](#data-migration)
-- [Essentials configurations](#essentials-configurations)
+- [Essential configurations](#essentials-configurations)
 - [Troubleshooting](#troubleshooting)
 - [Known issues](#known-issues)
 - [Platform Specific Information](#platform-specific-information)
@@ -184,7 +184,7 @@ See [here](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/3)
 
 See [this](https://meta.discourse.org/t/importing-from-fluxbb/51322) topic.
 
-## Essentials configurations
+## Essential configurations
 
 Many settings are posible with Discourse but some are essential for the proper functioning.
 
