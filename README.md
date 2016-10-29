@@ -21,6 +21,7 @@
 - [Configure various authentications](#configure-various-authentications)
 - [Remove image uploading in posts](#remove-image-uploading-in-posts)
 - [Data migration](#data-migration)
+- [Essentials configurations](#essentials-configurations)
 - [Troubleshooting](#troubleshooting)
 - [Known issues](#known-issues)
 - [Platform Specific Information](#platform-specific-information)
@@ -182,6 +183,43 @@ See [here](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/3)
 ## Data migration
 
 See [this](https://meta.discourse.org/t/importing-from-fluxbb/51322) topic.
+
+## Essentials configurations
+
+Many settings are posible with Discourse but some are essential for the proper functioning.
+
+Preferences:Admin
+
+* Settings
+  * Required
+    * title,site description,contact email,contact url,notification email,site contact username
+    * logo url,logo small url,mobile logo url,favicon url,apple touch icon url
+    * company short name,company full name,company domain
+  * Basic Setup
+    * default locale:limba română
+    * allow user locale [✓]
+    * top menu:latest,new,unread,top,categories
+    * category colors:
+  * Login
+    * enable google oauth2 logins
+    * enable twitter logins
+    * enable github logins
+  * Posting
+    * min post length:10
+    * min first post length:10
+    * min topic title length:1
+    * highlighted languages: add go :wink:
+  * Files
+    * max image size kb:0
+    * max attachment size kb:0
+    * authorized extensions:[]
+    * Legal: link to CoC
+  * Backups
+    * allow restore [✓]
+  * Tags
+    * tagging enabled [✓]
+  * Plugins
+    * daily performance report [✓]
 
 ## Troubleshooting
 
