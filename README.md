@@ -18,6 +18,8 @@
   - [Logo images](#logo-images)
   - [Color scheme](#color-scheme)
   - [Custom CSS/HTML](#custom-csshtml)
+  - [Set color scheme](#set-color-scheme)
+- [app.yml](#app.yml)
 - [Configure various authentications](#configure-various-authentications)
 - [Remove image uploading in posts](#remove-image-uploading-in-posts)
 - [Data migration](#data-migration)
@@ -69,7 +71,7 @@ Note that you can't enter into container if is stopped.
 
 #### Rebuild the container
 
-        ./launcher rebuild app
+        ./launcher rebuild app -y
 
 This is useful if you want to add plugins or some capabilities to the platforma.
 
@@ -87,7 +89,17 @@ By default the container have wrong time zone. [Enter into the container](#enter
 
         sudo apt-get install mc nano
 
-Note that if you will need to reinstall those if you rebuild the container.
+Note that if you will need to reinstall those if you rebuild the container.To avoid that do this in `app.yml`:
+
+    ## Plugins go here
+    ## see https://meta.discourse.org/t/19157 for details
+    hooks:
+      after_code:
+        - exec:
+            cd: $home
+            cmd:
+              - apt-get install mc nano -y
+
 
 ## Backup your installation
 
@@ -108,9 +120,6 @@ First you need to [switch to Discourse folder](#switch-to-discourse-folder) and 
         hooks:
           after_code:
             - exec:
-                cd: $home/plugins
-                cmd:
-                  - git clone https://github.com/discourse/docker_manager.git
                 cd: $home/config/locales
                 cmd:
                   - wget https://raw.githubusercontent.com/discourse/discourse/master/config/locales/client.ro.yml
@@ -128,11 +137,11 @@ Making a new theme mean create a color scheme and some custom css. Also some log
 
 Place logo images to `Staff:Media library` topic. Copy links to `Admin:Required` proper sections:
 
-* [Forum logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-forum.png) `Admin:Required:logo url`
-* [Small logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-ubuntu_cof-orange-hex.png) `Admin:Required:small logo url`
-* [Mobile forum logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-forum-mobile.png) `Admin:Required:mobile logo url`
-* [Favicon image](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/favicon.png) `Admin:Required:favicon url`
-* [Apple logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/logos/logo-ubuntu_cof-orange-hex.png) `Admin:Required:apple touch icon url`
+* [Forum logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/images/logo-forum.png) `Admin:Required:logo url`
+* [Small logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/images/logo-ubuntu_cof-orange-hex.png) `Admin:Required:small logo url`
+* [Mobile forum logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/images/logo-forum-mobile.png) `Admin:Required:mobile logo url`
+* [Favicon image](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/images/favicon.png) `Admin:Required:favicon url`
+* [Apple logo](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/images/logo-ubuntu_cof-orange-hex.png) `Admin:Required:apple touch icon url`
 
 Note that some `.png` images are white on transparent so don't panic if you don't see it. Are there, just put it.
 
@@ -152,6 +161,12 @@ For ubuntu.ro theme use this:
         danger               e95420
         success              38b44a
         love                 fa6c8d
+Edit `app.yml`
+
+    ## Any custom commands to run after building
+    run:
+      - exec: wget -O /var/www/discourse/app/assets/stylesheets/common/foundation/colors.scss https://raw.githubusercontent.com/cracknel/discourse$
+
 
 ## Custom CSS/HTML 
 
@@ -167,6 +182,33 @@ For mobiles use this:
 [CSS](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/css-mobile) [Header](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/header-mobile.html) [Top](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/top-mobile.html) [Footer](https://raw.githubusercontent.com/geosoft1/ubuntu-ro-discourse/master/theme/footer-mobile.html)
 
 **Note** that mobile CSS are needed especially if you use small devices like cellphones.
+
+## app.yml
+
+    ## Plugins go here
+    ## see https://meta.discourse.org/t/19157 for details
+    hooks:
+      after_code:
+        - exec:
+            cd: $home/plugins
+            cmd:
+              - git clone https://github.com/discourse/docker_manager.git
+            cd: $home/config/locales
+            cmd:
+              - wget https://raw.githubusercontent.com/discourse/discourse/master/config/locales/client.ro.yml
+              - wget https://raw.githubusercontent.com/discourse/discourse/master/config/locales/server.ro.yml
+            cd: $home
+            cmd:
+              - apt-get install mc nano -y
+    
+    ## Any custom commands to run after building
+    run:
+      - exec: echo "Beginning of custom commands"
+      ## If you want to set the 'From' email address for your first registration, uncomment and change:
+      ## After getting the first signup email, re-comment the line. It only needs to run once.
+      #- exec: rails r "SiteSetting.notification_email='info@unconfigured.discourse.org'"
+      - exec: wget -O /var/www/discourse/app/assets/stylesheets/common/foundation/colors.scss https://raw.githubusercontent.com/cracknel/discourse$
+      - exec: echo "End of custom commands"
 
 ## Configure various authentications
 
@@ -227,6 +269,13 @@ Preferences:Admin
     * daily performance report [✓]
 
 ## Troubleshooting
+
+If `.launcher rebuild app` fail, use
+
+     service docker stop
+     service docker start
+     .launcher rebuild app
+	
 
 ## Known issues
 
