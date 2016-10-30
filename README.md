@@ -38,7 +38,7 @@ Use the original Discourse [documentation](https://github.com/discourse/discours
 
         sudo -s
         wget -qO- https://get.docker.com/ | sh
-        sudo usermod -aG docker george
+        sudo usermod -aG docker $USER
         mkdir /var/discourse
         git clone https://github.com/discourse/discourse_docker.git /var/discourse
         cd /var/discourse
@@ -77,13 +77,13 @@ This is useful if you want to add plugins or some capabilities to the platforma.
 
 #### Set date inside container
 
-By default the container have wrong time zone. Enter into the container and run:
+By default the container have wrong time zone. [Enter into the container](#enter-into-the-container) and run:
 
         dpkg-reconfigure tzdata
 
 #### Install some useful things into container
 
-Enter into container and run:
+[Enter into the container](#enter-into-the-container) and run:
 
         sudo apt-get install mc nano
 
@@ -173,7 +173,7 @@ For mobiles use this:
 * [Github](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)
 * [Google](https://meta.discourse.org/t/configuring-google-login-for-discourse/15858)
 * Launchpad
-* Twitter
+* [Twitter](https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395)
 * Facebook
 
 ## Remove image uploading in posts
@@ -200,6 +200,10 @@ Preferences:Admin
     * allow user locale [✓]
     * top menu:latest,new,unread,top,categories
     * category colors:
+    [F1592A,BF1E2E,F7941D,9EB83B,3AB54A,12A89D,25AAE2]
+    [0E76BD,652D90,92278F,ED207B,8C6238,231F20,808281]
+    [B3B5B4,283890]
+	* fixed category positions [✓]
   * Login
     * enable google oauth2 logins
     * enable twitter logins
@@ -265,6 +269,7 @@ They says yes. Read [this](https://github.com/discourse/discourse/blob/master/do
 [https://meta.discourse.org/t/install-a-plugin/19157](https://meta.discourse.org/t/install-a-plugin/19157)<br>
 [https://meta.discourse.org/t/configuring-google-login-for-discourse/15858](https://meta.discourse.org/t/configuring-google-login-for-discourse/15858)<br>
 [https://meta.discourse.org/t/configuring-github-login-for-discourse/13745](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)<br>
+[https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395](https://meta.discourse.org/t/configuring-twitter-login-for-discourse/13395)<br>
 [https://meta.discourse.org/t/how-to-update-translations-on-running-instance-of-discourse/14840/5](https://meta.discourse.org/t/how-to-update-translations-on-running-instance-of-discourse/14840/5)<br>
 [https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/4](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/4)<br>
 [https://github.com/discourse/discourse/blob/master/docs/SECURITY.md](https://github.com/discourse/discourse/blob/master/docs/SECURITY.md)<br>
