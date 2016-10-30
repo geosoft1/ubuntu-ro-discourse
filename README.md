@@ -178,7 +178,9 @@ For mobiles use this:
 
 ## Remove image uploading in posts
 
-See [here](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/3). Go to `Admin:Settings:Files` and change `max image size kb` and `max attachment size kb` to 0, or clear out authorized extensions.
+See [here](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/3). Go to `Admin:Settings:Files` and change `max image size kb` and `max attachment size kb` to 0, or clear out authorized extensions. In this case you will not allow avatars.
+
+**A very good idea** is to allow upload png,jpg files with 120x120px (for avatars) use: `max attachment size kb:0`,`authorized extensions:[png,jpg]`,`max image width:120`,`max image height:120`
 
 ## Data migration
 
