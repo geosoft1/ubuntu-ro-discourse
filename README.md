@@ -330,4 +330,3 @@ They says yes. Read [this](https://github.com/discourse/discourse/blob/master/do
 [https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/4](https://meta.discourse.org/t/remove-image-uploading-in-posts/23743/4)<br>
 [https://github.com/discourse/discourse/blob/master/docs/SECURITY.md](https://github.com/discourse/discourse/blob/master/docs/SECURITY.md)<br>
 [https://meta.discourse.org/t/best-way-to-customize-top-menu/35336/3](https://meta.discourse.org/t/best-way-to-customize-top-menu/35336/3)<br>
-
